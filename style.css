@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background-color: rgb(118, 131, 243);
+}
+h2{
+    font-size: 1.2;
+}
+h1 {
+    color: #5e74b3
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4149528c;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+
+nav ul li a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+section:not(#home) {
+    padding: 100px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#home {
+    background-color: #325a88;
+    background-image: url(https://wallpapercave.com/wp/wp2737005.jpg );
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: rgb(33, 57, 75);
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.content img {
+    width: 400px;
+    height: 300px;
+    object-fit: cover;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.content .text {
+    max-width: 600px;
+    text-align: center;
+}
+
+.content .text h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fdfdfd;
+}
+
+.content .text p {
+    font-size: 1em;
+    color: #000000;
+
+}
+
+#services {
+    background-color: #5e74b3
+}
+
+#about {
+    background-color: #4a5d92
+}
+
+#contact {
+    background-color:#5e74b3
+}
+
+.cta-button {
+    margin-top: 30px;
+    background-color: #0b0ba7, #826edd;
+    color: rgb(0, 0, 0);
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 1s ease, transform 1s ease;
+}
